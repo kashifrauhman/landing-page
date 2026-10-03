@@ -34,7 +34,7 @@ a{
 .top-content{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 100px;
 }
 
@@ -54,7 +54,7 @@ a{
    font-size: 20px;
 }
 
-button{
+.top-button{
     padding: 10px;
     border-radius: 20px;
 }
@@ -137,4 +137,44 @@ button{
     justify-content: flex-end;
     font-weight: bold;
     font-size: 20px;
+}
+
+.signup-section{
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+.signup-box{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(60, 152, 239) ;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.signup-button{
+    background-color: rgb(60, 152, 239);
+    padding: 10px 50px 10px 50px;
+    border: 3px solid aliceblue;
+    border-radius: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.signup-toptext,
+.signup-subtext{
+    color: aliceblue;
+}
+
+.signup-toptext{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.signup-subtext{
+    font-weight: bold;
 }
