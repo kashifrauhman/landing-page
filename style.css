@@ -113,7 +113,7 @@ a{
 
 .quote-section{
     display: flex;
-    background-color: rgb(157, 167, 176);
+    background-color: rgb(42, 42, 62);
     justify-content: center;
     padding: 100px;
     margin-top: 30px;
@@ -137,6 +137,7 @@ a{
     justify-content: flex-end;
     font-weight: bold;
     font-size: 20px;
+    color: rgb(254, 254, 255);
 }
 
 .signup-section{
@@ -180,5 +181,9 @@ a{
 }
 
 .footer{
-    background-color: rgb(99, 99, 204);
+    background-color: rgb(42, 42, 62);
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
 }
