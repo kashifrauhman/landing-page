@@ -12,7 +12,7 @@ body{
 .top{
     display: flex;
     flex-direction: column;
-    background-color: rgb(60, 152, 239);
+    background-color: rgb(99, 99, 204);
     padding: 20px;
 }
 .header{
@@ -48,8 +48,8 @@ a{
    justify-content: center;
    width: 600px;
    height: 300px;
-   background-color: rgb(136, 121, 121);
-   color: aliceblue;
+   background-color: rgb(177, 171, 171);
+   color: rgb(0, 0, 0);
    font-weight: bold;
    font-size: 20px;
 }
@@ -90,7 +90,7 @@ a{
 }
 
 .info-box{
-    border: solid rgb(60, 152, 239);
+    border: solid rgb(99, 99, 204);
     border-radius: 20px;
     height: 200px;
     width: 200px;
@@ -150,13 +150,13 @@ a{
     align-items: center;
     padding: 50px;
     border-radius: 25px;
-    background-color: rgb(60, 152, 239) ;
+    background-color: rgb(99, 99, 204) ;
     width: 1000px;
     justify-content: space-around;
 }
 
 .signup-button{
-    background-color: rgb(60, 152, 239);
+    background-color: rgb(99, 99, 204);
     padding: 10px 50px 10px 50px;
     border: 3px solid aliceblue;
     border-radius: 20px;
@@ -177,4 +177,8 @@ a{
 
 .signup-subtext{
     font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(99, 99, 204);
 }
