@@ -12,7 +12,7 @@ body{
 .top{
     display: flex;
     flex-direction: column;
-    background-color: rgb(15, 98, 175);
+    background-color: rgb(60, 152, 239);
     padding: 20px;
 }
 .header{
@@ -90,7 +90,7 @@ button{
 }
 
 .info-box{
-    border: solid rgb(15, 98, 175);
+    border: solid rgb(60, 152, 239);
     border-radius: 20px;
     height: 200px;
     width: 200px;
@@ -109,4 +109,32 @@ button{
     margin-top: 30px;
     font-weight: bold;
     text-align: center;
+}
+
+.quote-section{
+    display: flex;
+    background-color: rgb(157, 167, 176);
+    justify-content: center;
+    padding: 100px;
+    margin-top: 30px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.quote-text{
+    color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
 }
