@@ -72,3 +72,41 @@ button{
 .top-subtitle{
     color: aliceblue;
 }
+
+.info-container{
+    padding: 40px;
+}
+
+.info-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info-box-container{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+
+.info-box{
+    border: solid rgb(15, 98, 175);
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.subtext{
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
